@@ -7,6 +7,6 @@ groups:
     labels:
       severity: warning
     annotations:
-      summary: "SSL certificate is expiring soon (instance {{ $labels.instance }})"
-      description: "SSL certificate for {{ $labels.instance }} expires in less than 15 days."
+      sumgary: "SSL certificate is expiring soon ({{ $labels.probe_target }})"
+      description: "SSL certificate for {{ $labels.probe_target }} expires in less than 15 days."
 
